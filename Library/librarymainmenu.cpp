@@ -24,3 +24,8 @@ void libraryMainMenu::on_actionExit_triggered()
 {
     this->close();
 }
+
+void libraryMainMenu::on_pushButton_3_clicked()
+{
+    this->close();
+}
