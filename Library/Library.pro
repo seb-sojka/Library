@@ -13,8 +13,11 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        librarymainmenu.cpp
+        librarymainmenu.cpp \
+    bookwindow.cpp
 
-HEADERS  += librarymainmenu.h
+HEADERS  += librarymainmenu.h \
+    bookwindow.h
 
-FORMS    += librarymainmenu.ui
+FORMS    += librarymainmenu.ui \
+    bookwindow.ui
