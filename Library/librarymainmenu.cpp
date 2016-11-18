@@ -1,5 +1,6 @@
 #include "librarymainmenu.h"
 #include "ui_librarymainmenu.h"
+#include "bookwindow.h"
 
 libraryMainMenu::libraryMainMenu(QWidget *parent) :
     QMainWindow(parent),
@@ -28,4 +29,7 @@ void libraryMainMenu::on_actionExit_triggered()
 void libraryMainMenu::on_pushButton_3_clicked()
 {
     this->close();
+    bookWindow booksWin;
+    booksWin.setModal(true);
+    booksWin.exec();
 }
