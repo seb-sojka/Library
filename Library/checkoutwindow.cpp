@@ -12,3 +12,13 @@ checkoutWindow::~checkoutWindow()
 {
     delete ui;
 }
+
+void checkoutWindow::on_okayButton_clicked()
+{
+
+}
+
+void checkoutWindow::on_cancelButton_clicked()
+{
+    this->close();
+}

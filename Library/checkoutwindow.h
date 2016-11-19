@@ -15,6 +15,11 @@ public:
     explicit checkoutWindow(QWidget *parent = 0);
     ~checkoutWindow();
 
+private slots:
+    void on_okayButton_clicked();
+
+    void on_cancelButton_clicked();
+
 private:
     Ui::checkoutWindow *ui;
 };

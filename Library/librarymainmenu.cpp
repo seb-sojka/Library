@@ -28,8 +28,9 @@ void libraryMainMenu::on_actionExit_triggered()
 
 void libraryMainMenu::on_pushButton_3_clicked()
 {
-    this->close();
+    this->hide();
     bookWindow booksWin;
     booksWin.setModal(true);
     booksWin.exec();
+    this->show();
 }
