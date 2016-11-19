@@ -12,3 +12,8 @@ bookWindow::~bookWindow()
 {
     delete ui;
 }
+
+void bookWindow::on_buttonCheckout_clicked()
+{
+
+}

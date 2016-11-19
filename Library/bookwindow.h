@@ -15,6 +15,9 @@ public:
     explicit bookWindow(QWidget *parent = 0);
     ~bookWindow();
 
+private slots:
+    void on_buttonCheckout_clicked();
+
 private:
     Ui::bookWindow *ui;
 };
